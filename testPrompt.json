@@ -1,0 +1,36 @@
+// b2py t2im {"prompt": "white house" , "tdict_path" : "/Users/wangchienming/.diffusionbee/imported_models/xsarchitecturalv3.tdict", "img_width":640 , "img_height" : 640 , "num_imgs" : 1}
+// {"prompt": "outdoortropicalhouse  little house  on riverside, no human, path wooden, garden, rice field, gold fish, coconut tree, solar panel, dawn, chicken, tomato, tropical, dim light, " , 
+// "img_width":640 , 
+// "img_height" : 640 , 
+// "num_imgs" : 1, 
+// "tdict_path" : "/Users/wangchienming/.diffusionbee/imported_models/xsarchitecturalv3.tdict",
+// "lora_tdict_paths" :("/Users/wangchienming/.diffusionbee/imported_models/ARWOutdoorTropicalHouse.tdict")}
+
+{"is_control_net" : true, 
+"prompt":"outdoortropicalhouse  little house  on riverside, no human, path wooden, garden, rice field, gold fish, coconut tree, solar panel, dawn, chicken, tomato, tropical, dim light,",
+"is_adv_mode":true,
+"tdict_path" : "/Users/wangchienming/.diffusionbee/imported_models/xsarchitecturalv3.tdict",
+"second_tdict_path" : "/Users/wangchienming/.diffusionbee/imported_models/xsarchitecturalv3.tdict",
+"selected_aspect_ratio":"Square","num_imgs":1,"control_weight":"1.0","img_width":512,"img_height":512,"num_steps":25,"scheduler":"karras",
+"guidance_scale":"7.5","is_vn_gpu_seed":"false","lora_0_weight":"1","lora_1_weight":"1","lora_2_weight":"1","selected_sd_style":"none",
+"controlnet_model":"Depth","do_controlnet_preprocess":"No",
+"controlnet_input_image_path":"/Users/wangchienming/Library/CloudStorage/OneDrive-DeepArchInc/IDEAI/素材/buildingImg/building_img_0.png","seed":470384}
+
+
+b2py t2im {"scheduler": "ddim", 
+"do_controlnet_preprocess" : true,
+"controlnet_inp_img_preprocesser" : "midas_depth",
+"controlnet_inp_img_preprocesser_model_path" : "/Users/wangchienming/.diffusionbee/downloaded_assets/midas_depth_fp16/midas_depth_fp16.onnx",
+"num_steps" : 32, 
+"lora_tdict_paths" :{"/Users/wangchienming/.diffusionbee/imported_models/ARWOutdoorTropicalHouse_ARWOutdoorTropicalHouse.tdict" : 1.0}, 
+"controlnet_model" : "depth", 
+"prompt": "outdoortropicalhouse  little house  on riverside, no human, path wooden, garden, rice field, gold fish, coconut tree, solar panel, dawn, chicken, tomato, tropical, dim light, " , 
+"tdict_path" : "/Users/wangchienming/.diffusionbee/imported_models/LandscapeBINGv1_LandscapeBINGv1.tdict", 
+"second_tdict_path" : "/Users/wangchienming/.diffusionbee/downloaded_assets/just_control_sd15_depth_fp16_just_control_sd15_depth_fp16.tdict", 
+"img_width":640 , 
+"img_height" : 640 , 
+"num_imgs" : 1, 
+"is_control_net" : true, 
+"controlnet_input_image_path":"/Users/wangchienming/Library/CloudStorage/OneDrive-DeepArchInc/IDEAI/素材/buildingImg/building_img_0.png"}
+
+b2py t2im {"scheduler": "ddim", "do_controlnet_preprocess" : true, "controlnet_inp_img_preprocesser" : "midas_depth", "controlnet_inp_img_preprocesser_model_path" : "/Users/wangchienming/.diffusionbee/downloaded_assets/midas_depth_fp16/midas_depth_fp16.onnx", "num_steps" : 32,  "lora_tdict_paths" :{"/Users/wangchienming/.diffusionbee/imported_models/kumaKengo_kumaKengo.tdict" : 1.0}, "controlnet_model" : "Depth", "prompt": "kumakengo, house, Best quality, masterpiece,ultra high res" ,  "tdict_path" : "/Users/wangchienming/.diffusionbee/imported_models/LandscapeBINGv1_LandscapeBINGv1.tdict",  "second_tdict_path" : "/Users/wangchienming/.diffusionbee/downloads/depth_fp16.tdict", "controlnet_tdict_path" : "/Users/wangchienming/.diffusionbee/downloads/depth_fp16.tdict", "img_width":768 , "img_height" : 768 ,  "num_imgs" : 1, "is_control_net" : true, "controlnet_input_image_path":"/Users/wangchienming/Library/CloudStorage/OneDrive-DeepArchInc/IDEAI/素材/buildingImg/building_img_0.png"}
